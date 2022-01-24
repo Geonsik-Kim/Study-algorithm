@@ -13,7 +13,7 @@ function solution(arr1, arr2) {
     }
 
     while (p1 < n) answer.push(arr1[p1++]);
-    while (p2 < n) answer.push(arr1[p2++]);
+    while (p2 < m) answer.push(arr1[p2++]);
     return answer;
 }
 
